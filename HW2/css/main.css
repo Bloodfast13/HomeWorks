@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: 400 16px/1.1 'Roboto', 'Arial', 'Helvetica', sans-serif;
+	background: #f0f0f5;
+	color: #000;
+	margin: 0;
+}
+
+.header {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	text-align: center;
+}
+
+.userslist {
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid black;
+	width: 50%;
+	position: relative;
+	background-color: white;
+	box-shadow: 2px 2px 5px black, 1px 1px 5px black;
+}
+
+.usersform	{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid black;
+	width: 50%;
+	position: absolute;
+	background-color: white;
+	box-shadow: 2px 2px 5px black, 1px 1px 5px black;
+}
+
+.userstable {
+	display: table;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid;
+	width: 100%;
+	text-align: center;
+	box-shadow: 2px 2px 5px black, 1px 1px 5px black;
+}
+
+tr:nth-child(even) {
+	background-color: lightblue;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-left: 0;
+	border-right: 0;
+	border-radius: 50%;
+	border-spacing: 0;
+}
+
+.input {
+	width: 100%;
+	height: 50px;
+}
+
+.label {
+	text-align: center;
+}
+
+.thead {
+	background: blue;
+	color: white;
+	text-transform: uppercase;
+	
+}
+
+.button1 {
+	background-color: white;
+    color: red;
+    border: 2px solid red;
+    width: 100px;
+    height: 50px;
+    border-radius: 15%
+}
+
+.imgholder {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.button2 {
+	background-color: white;
+    color: green;
+    border: 2px solid green;
+    width: 100px;
+    height: 50px;
+    border-radius: 15%
+}
+
+.round {
+	float: right;
+	background-color: lightblue;
+    color: black;
+    border: 2px solid lightblue;
+    border-radius: 50%
+}
+
+.flex {
+	display: flex;
+    flex-direction: column;
+}
+
+tr:hover {
+	background: red;
+	color: white;
+}
+
+tr:hover a {
+	color: white
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+

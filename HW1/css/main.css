@@ -1,0 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: 400 16px/1.1 'Roboto', 'Arial', 'Helvetica', sans-serif;
+	background: #f0f0f5;
+	color: #000;
+	margin: 0;
+}
+
